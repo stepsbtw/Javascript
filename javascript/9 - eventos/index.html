@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <style>body{
+        text-align: center;
+    }</style>
+    <title>9 - eventos</title>
+</head>
+<body>
+    <h1>TESTE EVENTOS</h1>
+
+    <div id="divisoria" onmouseover="passandoMouse()" onmouseout="tirandoMouse()"
+    onmousedown="clicando()" onmouseup="desclicando()"
+    style="margin: auto auto; width: 200px; height: 200px;
+    background: blue; font-family: fantasy;">
+    nao passe o mouse aqui.
+        <p id="texto"></p>
+    </div>
+    <br><br>
+    <input id="insert" oninput="escrevendo()" onchange="mudando()" onfocus="foco()" placeholder="nao se atreva a escrever"
+    style="padding:20px; font-size: 20px" type="text" value="duvido tu me apaga">
+    <script src="js/index.js"></script>
+</body>
+</html>
